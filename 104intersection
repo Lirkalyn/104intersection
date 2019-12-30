@@ -72,7 +72,7 @@ if len(sys.argv) == 9:
         print ("Cylinder of radius %d" % (p))
     elif opt == 3:
         print ("Cone with a %d degree angle" % (p))
-    print ("Line passing through the point (%d,%d,%d) and parallel to the vector (%d,%d,%d)" % (xp, yp, zp, xv, yv, zv))
+    print ("Line passing through the point (%d, %d, %d) and parallel to the vector (%d, %d, %d)" % (xp, yp, zp, xv, yv, zv))
     calcul_opt(opt, xp, yp, zp, xv, yv, zv, p)
 else:
     print ("error, you need 8 arguments")
